@@ -15,7 +15,7 @@ RUN apt-get update && \
 RUN mkdir /opt/tomcat
 WORKDIR /opt/tomcat
 
-RUN curl -O https://downloads.apache.org/tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.tar.gz
+RUN curl -O https://downloads.apache.org/tomcat/tomcat-8/v8.5.94/bin/apache-tomcat-8.5.94.tar.gz
 
 RUN tar zxvf apache*.tar.gz
 RUN mv apache-tomcat-8.5.84/* /opt/tomcat/.
